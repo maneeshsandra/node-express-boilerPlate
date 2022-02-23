@@ -1,0 +1,70 @@
+label {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+input,
+select,
+textarea {
+  background: #fff;
+  border: 1px solid #666;
+  border-radius: 8px;
+  color: #333;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 0 20px;
+  padding: 8px;
+  width: 100%;
+}
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: #999;
+}
+input,
+textarea {
+  cursor: text;
+}
+select:disabled,
+input:disabled {
+  cursor: default;
+  background-color: #f5f2f2;
+}
+.error-message {
+  font-size: 12px;
+  color: #ef4651;
+  position: absolute;
+  bottom: -8px;
+}
+.input-error {
+  border: 1px solid #ef4651;
+}
+.input-focus {
+  color: #333;
+}
+select:focus,
+select:focus-visible,
+input:focus,
+input:focus-visible {
+  outline: none;
+  border: 1.5px solid #333;
+}
+select,
+option {
+  text-transform: capitalize;
+}
+select option {
+  background: #fff;
+  color: #333;
+}
+select option:disabled {
+  color: #666;
+  background: #f5f2f2;
+}
+select option:checked {
+  color: #fff;
+  background: #ef4651;
+}

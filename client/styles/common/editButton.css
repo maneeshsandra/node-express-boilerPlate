@@ -1,0 +1,20 @@
+.edit-button {
+  background: none;
+  line-height: 24px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+  padding: 12px 0;
+  display: inline;
+  transition: all ease-out 150ms;
+  cursor: pointer;
+}
+.edit-button img {
+  height: 12px;
+  margin: 0 8px;
+}
+
+.edit-button:hover {
+  font-size: 16px;
+  box-shadow: none !important;
+}

@@ -1,0 +1,16 @@
+.underline {
+  position: relative;
+  width: fit-content;
+  width: -moz-max-content;
+}
+.underline::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  right: 0;
+  bottom: -4px;
+  background: #ff6166;
+  width: 100%;
+  left: 0;
+  border-radius: 4px;
+}

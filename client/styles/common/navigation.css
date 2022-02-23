@@ -1,0 +1,91 @@
+header {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px 40px;
+  width: 100%;
+  max-width: 1360px;
+}
+.brand-logo {
+  margin: 4px 0px;
+  height: 40px;
+  object-fit: contain;
+}
+.nav-links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+}
+.nav-link {
+  position: relative;
+  font-size: 20px;
+  display: flex;
+  color: #666;
+  font-weight: 400;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all ease-out 150ms;
+}
+.nav-link:hover {
+  color: #333;
+  transform: scale(1.01);
+}
+.nav-active {
+  color: #333;
+}
+.nav-active:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  right: 0;
+  bottom: -8px;
+  background: #ff6166;
+  width: 100%;
+  left: 0;
+  border-radius: 12px;
+}
+.dropdown-icon {
+  margin-left: 12px;
+  width: 16px;
+  object-fit: contain;
+}
+.dropdown-menu {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding: 0;
+  right: 10px;
+  margin: -12px;
+  top: 50px;
+  width: 90%;
+  background-color: #fff;
+  min-width: 160px;
+  border-radius: 4px;
+  box-shadow: 0 10px 15px #3333331a;
+  z-index: 10;
+}
+.dropdown-menu a {
+  width: 100%;
+  padding: 12px 8px;
+  text-decoration: none;
+  color: #333;
+}
+.dropdown-menu-hidden {
+  display: none;
+}
+.dropdown-menu a:hover {
+  box-shadow: 0 8px 16px #3333331a;
+  transform: scale(1.01);
+  color: #333;
+  transition: all ease-out 150ms;
+}

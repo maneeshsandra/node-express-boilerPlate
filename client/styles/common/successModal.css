@@ -1,0 +1,66 @@
+/* Modal Blur effect */
+.is-blurred {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+/* Modal overflow stop */
+/* .is-modal {
+  overflow-y: hidden;
+} */
+.modal-overlay {
+  position: absolute;
+  background: none;
+  z-index: 10;
+  border: none;
+  min-height: 100%;
+  width: 100%;
+  top: 0;
+  display: block;
+}
+.modal {
+  z-index: 100;
+  margin: 100vh auto;
+  padding: 0;
+  border-radius: 12px;
+  color: #333;
+  width: 100%;
+  max-width: 1120px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 10px 10px 40px #ef465156;
+}
+.modal-header {
+  background-color: #ef4651;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  margin: 0;
+}
+.modal-header img {
+  width: 40px;
+  padding-right: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.modal-box {
+  padding: 20px 80px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-box span {
+  background-color: #ffedd3;
+  padding: 8px;
+  border-radius: 8px;
+}
+.modal-box .submit-another {
+  color: #0762a4;
+  cursor: pointer;
+}
+.modal-box .submit-another:hover {
+  text-decoration: underline;
+}
+.modal-hidden {
+  display: none;
+}

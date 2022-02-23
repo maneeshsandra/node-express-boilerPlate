@@ -1,0 +1,65 @@
+.modal-content {
+  padding-bottom: 8px;
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px;
+  max-width: 550px;
+  width: 100%;
+  margin: 2% auto;
+}
+.close-button {
+  float: right;
+  padding: 10px;
+  cursor: pointer;
+}
+.row-hidden {
+  display: none;
+}
+.show-modal {
+  display: block;
+  height: 100%;
+  z-index: 10;
+  border: none;
+  background: none;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow: auto;
+}
+.close-modal {
+  display: none;
+}
+.is-blurred {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+.is-modal {
+  overflow-y: hidden;
+}
+.modal-content button {
+  line-height: 10px;
+  margin: 10px 0;
+}
+.modal-col {
+  margin: 12px 0;
+}
+.table-col-2 {
+  grid-template-columns: 2fr 3fr;
+  margin: 4px 0;
+}
+.comment-textarea {
+  height: 38px;
+  resize: none;
+}
+.close-button {
+  float: right;
+  cursor: pointer;
+  width: 36px;
+  object-fit: contain;
+}
+.row select,
+.row input {
+  height: 38px;
+  border-radius: 5px;
+}

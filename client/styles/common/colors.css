@@ -1,0 +1,30 @@
+.bg-primary {
+  background-color: #fe414d;
+}
+.bg-dimwhite {
+  background-color: #f5f3f3;
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-yellow {
+  background-color: #ffedd3;
+}
+.bg-dimyellow {
+  background-color: #ffedd366;
+}
+.font-dark {
+  color: #333;
+}
+.font-darkgrey {
+  color: #555;
+}
+.font-dimgrey {
+  color: #666;
+}
+.font-lightgrey {
+  color: #999;
+}
+.font-white {
+  color: #fff;
+}
