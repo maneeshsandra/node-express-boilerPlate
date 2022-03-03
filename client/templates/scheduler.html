@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin-left: 30%;
+            padding: 20px;
+        }
+        input,textarea{
+            margin: 10px;
+        }
+        #error-message{
+            color: red;
+        }
+        </style>
+</head>
+<body>
+    <form onsubmit="return false">
+        <input type="date" id="startDate" required>
+        <input type="number" min="2" step="2" max="20" id="teamCount" placeholder="Enter no.of teams(even only less than 20)">
+        <textarea id="teams" placeholder="enter teams by space separated"></textarea>
+        <button id="submit" type="submit">submit</button>
+    </form>
+   <p id="error-message"></p>
+   
+    <table id="schedule">
+        <tr>   
+            <th>match NO</th>
+          <th>Date</th>
+          <th>Home</th>
+         
+          <th>Opponent</th>
+        </tr>
+       
+      </table>
+      
+</body>
+    <script src="../scripts/scheduler.js"></script>
+</html>
